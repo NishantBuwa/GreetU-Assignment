@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-component {
+    width: 100vw;
+    background: #E5BEEC;
+    display: flex;
+}
+
+.rainbow-img {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 6px 0px 2px 17px;
+}
+
+.navbar-component .rainbow-img img {
+    width: 90px;
+    height: auto;
+}
+
+.navbar-component .text-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.navbar-component .text-content .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-component .text-content .bottom{
+    display: flex;
+}
+
+.navbar-component .text-content .top .Loveto {
+    font-size: 28px;
+    font-weight: 630;
+    font-style: italic;
+}
+
+.navbar-component .text-content .top .timeline {
+    margin-left: 8px;
+    margin-top: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.navbar-component .text-content .bottom{
+    margin-left: 0px;
+}
+.navbar-component .text-content .bottom .powered-by{
+    font-size: 10px;
+    margin-top: 8px;
+}
+.navbar-component .text-content .bottom  .greetu-img img{
+    margin-left: 3px;
+    width:70px;
+}
