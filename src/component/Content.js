@@ -176,7 +176,7 @@ function Content() {
                         />
                       </div>
                       <div className="milestone-date">
-                        <label htmlFor={`date-${index}`}>Date of Milestone</label>
+                        <label htmlFor={`date-${index}`}>Date of Milestone - {index+1}</label>
                         <input
                           type="date"
                           id={`date-${index}`}

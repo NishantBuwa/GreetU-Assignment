@@ -1,109 +1,11 @@
-/* *{
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
-}
-.content{
-    background: #fde2f3;
-}
-.content .heading{
-    padding-top: 30px;
-    text-align: center;
-}
-.content .heading p{
-    color:#2A2F4F;
-    font-size: 35px;
-    font-weight: 700;
-    font-family:sans-serif;
-}
-.content .details {
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.content .details .details-info{
-    width:600px;
-    border:2px dashed grey;
-    border-radius: 20px;
-}
-.content .details .details-info .add{
-    text-align: center;
-    font-family: sans-serif;
-    margin-top: 9px;
-    font-size: 28px;
-    color: #2a2f4f;
-    font-weight: 700;
-    
-}
-
-.content .details .details-info .details-form{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    
-}
-.content .details .details-info .details-form form{
-    display: flex;
-    flex-direction: column;
-    width:650px;
-    padding:10px;
-    
-}
-.content .details .details-info .details-form form label{
-    color:black;
-    font-size: 25px;
-    margin-left: 20px;
-}
-.content .details .details-info .details-form form input{
-    width:520px;
-    padding:10px;
-    height:23px;
-    border-radius: 5px;
-    border:none;
-    background: #e5beec;
-    margin-left: 20px;
-    margin-top: 6px;
-    font-size: 17px;
-}
-.content .details .details-info .details-form label:not(:first-of-type) {
-    margin-top: 15px;
-}
-.content .details .details-info .details-form .custom-file-label {
-    width:520px;
-    padding: 10px;
-    background-color: #007bff;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 18px !important;
-    border:2px dashed grey;
-    background: #e5beec;
-    color:black;
-}
-.content .details .details-info .details-form span{
-    color:grey;
-    font-size: 15px;
-    margin-left: 10px;
-}
-label:last-of-type {
-    margin-bottom: 0px; 
-  }
-
-  .content .details .details-info .details-form form #add{
-    padding-top: 20px;
-    color:white;
-} */
-
-
-
 *{
     margin:0;
     padding:0;
     overflow-x:hidden;
 }
-
+body::-webkit-scrollbar{
+    display: none;
+}
 .content{
     background: #fde2f3;
     height:auto;
